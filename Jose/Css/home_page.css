@@ -1,7 +1,10 @@
 .image{
-	background-image: url("Fotos/cuba.jpg");
+	background-image: url("/Fotos/cuba.jpg");
 	padding: 40px 40px 40px 40px;
-	height: 100px;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
 }
 body{
 	background-color: #226666;
@@ -45,5 +48,9 @@ aside {
 	
 }
 footer{
+	
+}
+
+header{
 	
 }
