@@ -1,0 +1,49 @@
+.image{
+	background-image: url("Fotos/cuba.jpg");
+	padding: 40px 40px 40px 40px;
+	height: 100px;
+}
+body{
+	background-color: #226666;
+	color: white;
+}
+a{
+	color: #882D61;
+}
+h1{
+	color: black;
+}
+nav li{
+	display: inline;
+	float: left;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+nav{
+	height: 10px;
+}
+footer li{
+	display: inline;
+	float: left;
+	margin-right: 40px;
+	margin-left: 40px;
+	height: 40px;
+	width: 20px;
+	
+}
+article{
+	float:left;
+	width: 50%;
+	height: 50px;
+	clear: left;
+	
+}
+aside {
+	float:right;
+	width: 30%;
+	height: 50px;
+	
+}
+footer{
+	
+}
