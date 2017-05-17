@@ -10,7 +10,7 @@
 }
 .nav-menu ul li {
 	float:left;
-	argin-left:10px;
+	margin-left:10px;
 	overflow:hidden;
 	cursor:pointer
 }
