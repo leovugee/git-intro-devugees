@@ -23,3 +23,16 @@ nav{
 	font-size: 15px;
 	background-color: white;
 }
+
+header {	text-align: center;
+	font-size: 60px;
+	background-color: white;
+}
+p{
+	font-size: 45px;
+	
+}
+
+footer{
+	background-color: green;
+}
