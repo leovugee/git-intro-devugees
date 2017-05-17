@@ -1,0 +1,37 @@
+a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.menu-parent {
+  background-color: #22333b;
+  padding: 0;
+}
+
+.menu-parent-item {
+  display: inline-block;
+  padding: 20px;
+  position: relative;
+}
+
+.menu-child-item {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.menu-child {
+  background-color: #22333b;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  transform: translateY(-30px);
+  transition: all 0.3s ease-in-out 0s;
+  width: 100%;
+}
+
+.menu-parent-item:hover .menu-child {
+  opacity: 1;
+  transform: translateY(0%);
+}

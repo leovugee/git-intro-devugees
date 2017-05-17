@@ -1,0 +1,78 @@
+.content {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+
+.content--compass {
+  transition-duration: 1s;
+  transition-property: transform;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  position: relative;
+}
+
+#son {
+  top: 200px;
+  left: 200px;
+}
+
+#father:hover #son {
+  background-color: yellow;
+}
+
+#north {
+  top: 0;
+  left: 200px;
+}
+
+#compass:hover #north {
+  transform: translate(0, 200px);
+}
+
+#east {
+  right: 0;
+  top: 200px;
+  transition-delay: 0.5s;
+}
+#compass:hover #east {
+  transform: translate(-200px, 0);
+}
+
+#south {
+  bottom: 0;
+  left: 200px;
+  transition-delay: 1s;
+}
+#compass:hover #south {
+  transform: translate(0, -200px);
+}
+
+#west {
+  left: 0;
+  transition-delay: 1.5s;
+  top: 200px;
+}
+#compass:hover #west {
+  transform: translate(200px, 0);
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#spinner {
+  animation: rotate 1s infinite;
+  border: 10px solid pink;
+  border-radius: 100%;
+  border-left-color: red;
+  height: 50px;
+  width: 50px;
+}
