@@ -1,0 +1,33 @@
+body {
+
+    background-image: url(img/ccc.jpg);
+    background-position: center top;
+    background-size: 100% auto;
+
+}
+
+img {
+	height: 450px;
+	width: 700px;
+	border-radius: 100px;
+  margin-top: 20px;
+
+}
+
+a {
+   
+    font: bold 30px Helvetica, Arial, Sans-Serif;
+    color: white;
+    padding: 0.2em;
+    font-family: Monoton;
+    text-shadow: 0 0 10px #fff, 0 0 20px #00d2ff, 0 0 30px #00d2ff, 0 0 40px #00d2ff, 0 0 50px #00d2ff, 0 0 60px #00d2ff, 0 0 70px #00d2ff; 
+    text-decoration: none;
+}
+
+   
+p  {
+    color: white;
+    text-shadow: 4px 4px 6px black;
+    font: bold 30px Helvetica, Arial, Sans-Serif;
+    
+}
