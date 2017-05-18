@@ -1,32 +1,35 @@
 html{
-	background-color: gray;
+	background-color: white;
 }
 
 
 
-nav{
-	color: white;
+nav {
+	
 	background-color: green;
-	font-size: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	color: gold;
+	
 }
+
 
 .sareh{
 	background-color: green;
 
 }
 
-#home-link{
-	background-color: black;
-}
 
 .info{
 	font-size: 15px;
 	background-color: white;
+
 }
 
 header {	text-align: center;
 	font-size: 60px;
 	background-color: white;
+	border:black;
 }
 p{
 	font-size: 45px;
@@ -35,4 +38,19 @@ p{
 
 footer{
 	background-color: green;
+}
+
+#pic{border: 5px
+	 solid black;
+	
+}
+.konzept{
+	background-color: green;
+	font-size: 30px !important;
+}
+.menu li{
+	display: inline-block;
+	float: left;
+	padding-right: 36px;
+	 text-decoration: underline;
 }
