@@ -2,15 +2,6 @@ body{
 background-color: #2998E4;
 }
 
- .img{
-	background-image: url("../Fotos/oldtimer.jpg");
-	height: 100%;
-	width: 100%;
-	background-position: center center;
-	background-repeat: no-repeat;
-	
-}
-
 article{
 	display: inline;
 	float: left;
@@ -112,4 +103,49 @@ h3, h4{
 
 .active, .dot:hover{
 	background-color: #717171;
+}
+
+#container{
+	width: 900px;
+	margin: 10px auto;
+}
+h1{
+	color: #00EBD2;
+	text-align: center;
+}
+#button{
+	float: left;
+	width: 900px;
+	float: left;
+	margin: auto 20px;
+}
+#header{
+	background-image: url("../Fotos/oldtimer.jpg");
+	height: 200px;;
+	width: 900px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#city{
+	float: left;
+	margin: auto 10px 10px;
+	clear: right;
+	width: 200px;	
+	
+}
+
+#pick{
+	float: left;
+	margin: auto 40px 3px;
+	clear: right;
+	width: 200px;
+	
+}
+
+#return{
+	float: left;
+	margin: auto 80px 3px;;
+	clear: right;
+	width: 200px;
 }

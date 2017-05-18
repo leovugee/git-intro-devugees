@@ -7,58 +7,67 @@
     </head>
     
     <body>
-        <script src="Javascript/car_rental.js"></script>
-    
-        <nav>
+        <div id="container">
+            <script src="Javascript/car_rental.js"></script>
+        
+            <nav>
+                
+            </nav>
+        
             
-        </nav>
-    
-        
-        <div class="img">
-            <section >
-                <h1>Make the reservation</h1>
-                <h3>City</h3>
-                <input type="text" placeholder="Enter a city" id="city" required>
-                <h3>Pick up</h3>
-                <input type="date" placeholder="Enter a day" id="pick" required>
-                <h3>Return</h3>
-                <input type="date" placeholder="Enter a date" id="date" required>
-                <input type="button" value="Next"> 
-            </section>
-        </div>
-        
-        <hr/>
-        <br>
-       
-        
+            <div id="header">
+                    <h1>Make the reservation</h1>
+                    <div id="city">
+                        <h3>City</h3>
+                        <input type="text" placeholder="Enter a city" id="city" required>
+                    </div>
+                    <div id="pick">
+                        <h3>Pick up</h3>
+                        <input type="date" placeholder="Enter a day" id="pick" required>
+                    </div>
+                    <div id="return">
+                        <h3>Return</h3>
+                        <input type="date" placeholder="Enter a date" id="date" required>
+                    </div>
+                    <div id="button">
+                        <input type="button" value="Next">
+                    </div>
+                
+            </div>
+            
+            <hr/>
+            <br>
+            
+            
             <h2>Enjoy all our Partners<h2>
-        <div class="slideshow" id="slide">
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 2</div>
-                <img src="Fotos/car1.jpg" style="width: 100%"> <!--Make the style-->
-                <div class="text">Caption Text</div>
-            </div>
-            
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 2</div>
-                <img src="Fotos/car2.jpg" style="width: 100%"> <!--Make the style-->
-                <div class="text">Caption Text</div>
-            </div>
-            
-            <a class="prev" onclick="plusSlides(-1)">&#10094;
-            </a>
-            
-            <a class="next" onclick="plusSlides(1)">&#10095;
-            </a>
+            <div class="slideshow" id="slide">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 2</div>
+                    <img src="Fotos/car1.jpg" style="width: 100%"> <!--Make the style-->
+                    <div class="text">Caption Text</div>
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 2</div>
+                    <img src="Fotos/car2.jpg" style="width: 100%"> <!--Make the style-->
+                    <div class="text">Caption Text</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;
+                </a>
+                
+                <a class="next" onclick="plusSlides(1)">&#10095;
+                </a>
 
-        </div>  
-        <br>
-        
+            </div>  
+            <br>
             
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div>   
+                
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
     </body>
 </html>
