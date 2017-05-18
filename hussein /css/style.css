@@ -1,6 +1,7 @@
 body,html {
 	height:100%;
-	margin:auto;
+	width:1200px;
+	margin:0 auto;
 }
 
 body {
@@ -25,6 +26,8 @@ h1 {
 	padding:60px;
 	width:90%;
 	opacity:0.7;
+
+	
 }
 
 #nav ul {
@@ -50,11 +53,11 @@ h1 {
 	font-weight: bold;
 	color:#ffffff;
 	text-decoration:none;
-	font-size:16px;
+	font-size:22px;
 	display:block;
 }
 #nav li a:hover {
-	background-color:red;
+	background-color:orange;
 }
 .main-container h2 {
 	margin:0;
@@ -62,6 +65,9 @@ h1 {
 	font-size:30px;
 	color:white;
 
+}
+.main-container h2{
+	margin-top:10px;
 }
 
 .main-container p::first-line {
@@ -75,3 +81,203 @@ p {
 	text-indent:50px;
 
 }
+.main-container img{
+	width:1200px;
+}
+
+.booking {
+	text-align:center;
+}
+
+.booking aside p {
+	font-weight:bold;
+	color:white;
+	font-size:22px;
+}
+.booking form {						
+	font-size:16px;
+
+}
+.cont{
+	padding:20px;
+}
+.cont img{
+	width:400px;
+	height:400px;
+	float:left;
+}
+.cont1 img{
+	width:400px;
+	height:400px;
+}
+
+select {
+  width:30%;
+  border: 1px solid #000;
+  padding:.75px 1px 5px 1px;
+  box-shadow:2px 1px 2px 1px;
+  background-color:white;
+  margin:10px;
+  }
+
+.inp{
+	position:relative;
+	right:20px;
+	margin:5px;
+	padding:5px;
+}
+.button {
+	background-color:orange;
+	border:none;
+	color:white;
+	padding:15px 32px;
+	margin:20px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:16px;
+	cursor:pointer;
+
+}
+footer{
+	display:inline;
+	float:left;
+	padding:50px;
+	position:relative;
+	left:285px;
+}
+
+ul {
+	list-style-type:none;
+	margin:auto;
+
+}
+
+ul li{
+	display:inline;
+
+}
+
+ul li a img{
+
+	width:100px;
+	height:100px;
+	padding:20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
