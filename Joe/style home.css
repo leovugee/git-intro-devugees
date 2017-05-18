@@ -1,0 +1,19 @@
+body {
+
+    background-image: url(aaa.jpg);
+    background-position: center top;
+    background-size: 100% auto;
+}	
+
+
+ul a {
+
+	color: black;
+	font-family: serif;
+	text-decoration: none;
+}
+
+p {
+         color:grey;
+         font-size: 45px;
+      }

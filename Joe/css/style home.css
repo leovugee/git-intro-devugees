@@ -1,0 +1,42 @@
+body {
+
+    background-image: url(img/aaa.jpg);
+    background-position: center top;
+    background-size: 100% auto;
+}	
+
+
+ul a {
+
+   font-size: 30px;
+   background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   font-family: serif;
+   text-decoration: none;
+   
+   
+}
+
+b  {
+	font: bold 90px Helvetica, Arial, Sans-Serif;
+	color: white;
+	padding: 0.2em;
+	font-family: Monoton;
+	text-shadow: 0 0 10px #fff, 0 0 20px #00d2ff, 0 0 30px #00d2ff, 0 0 40px #00d2ff, 0 0 50px #00d2ff, 0 0 60px #00d2ff, 0 0 70px #00d2ff;	
+}
+
+p   {
+	
+	color: #ffffff;
+    background-color: grey;
+    letter-spacing: .15em;
+    opacity: 0.4;
+    color: black
+
+
+
+
+
+
+}

@@ -1,0 +1,46 @@
+  body {
+
+    background-image: url(img/back.jpeg);
+    background-position: center top;
+    background-size: 100% auto;
+}
+
+
+  div.imageHold {
+    padding: 55px 85px;
+}
+
+	div.imageHold div {
+
+    float: left;
+    width: 230px;
+    height: 250px;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 20px
+}
+
+	div.imageHold img {
+    width: 330px;
+    height: 250px;
+    border-radius: 100px;
+}
+
+	div.imageHold img:hover {
+    position: absolute;
+    margin-left: -85px;
+    margin-top: -55px;  
+    width: 500px;       
+    height: 360px;      
+}
+
+	a {
+   
+   font: bold 30px Helvetica, Arial, Sans-Serif;
+    color: white;
+    padding: 0.2em;
+    font-family: Monoton;
+    text-shadow: 0 0 10px #fff, 0 0 20px #00d2ff, 0 0 30px #00d2ff, 0 0 40px #00d2ff, 0 0 50px #00d2ff, 0 0 60px #00d2ff, 0 0 70px #00d2ff; 
+    
+   text-decoration: none;
+}
