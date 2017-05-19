@@ -2,3 +2,125 @@
 	padding:0;
 	margin:0;
 }
+.trans-div {
+	border: solid;
+	width:200px;
+	height:100px;
+}
+.trans-div:hover {
+	background-color: #ff00ff;
+}
+.father {
+	width:500px;
+	height:500px;
+	position:relative;
+	background-color: black;
+	color: white;
+}
+#son {
+	position: absolute;
+	left:200px;
+	top:200px;
+	width:200px;
+	height:200px;
+	background-color: red;
+}
+#father:hover #son {
+	background-color: green;
+}
+.visited-not-changed a:visited {
+	color :blue;
+}
+#box1,#box2 {
+	height: 100px;
+	width: 200px;
+}
+#img1,#img2 {
+	height:100px;
+	width: 200px;
+}
+#box1 {
+	transform: rotate(-45deg);
+}
+#box2 {
+	transform: rotate(45deg);
+}
+#div3 {
+	border:solid;
+	height:100px;
+	width: 200px;
+	transform: scale(3);
+}
+#div4 {
+	border:solid;
+	height:100px;
+	width: 200px;
+	transform: scale(2,0.5);
+}
+#in {
+	width:100px;
+	height:100px;
+}
+#out {
+	width:100px;
+	height:100px;
+	border:solid;
+}
+#in:hover + #out{
+	transform: translate(100px,0px);
+}
+.colorsition a {
+	color: red;
+	transition-duration: 1s;
+}
+.colorsition a:hover {
+	color: green;
+}
+.trans-property {
+	width:200px;
+	height:100px;
+	background-color: red;
+	transition-property: transform;
+	transition-duration: 1s;
+}
+.trans-property:hover {
+	background-color: green;
+	transform:rotate(-700deg);
+
+}
+#compass {
+	position:relative;
+}
+#north,#south,#east,#west {
+	width:100px;
+	height:100px;
+	background-color: white;
+	position:absolute;
+	transition-duration: 2s;
+}
+#north {
+	left:200px;
+}
+#west {
+	top:200px;
+}
+#east {
+	left:400px;
+	top:200px;
+}
+#south {
+	left:200px;
+	top:400px;
+}
+#compass:hover #north{
+	transform: translate(0px,200px);
+}
+#compass:hover #east{
+	transform: translate(-200px,0px);
+}
+#compass:hover #south{
+	transform: translate(0px,-200px);
+}
+#compass:hover #west{
+	transform: translate(200px,0px);
+}
