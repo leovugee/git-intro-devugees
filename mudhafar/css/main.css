@@ -60,6 +60,7 @@
 	cursor:pointer;
 	padding:10px;
 	border-radius:30px;
+	text-decoration: none;
 }
 #presc:hover {
 	background-color:#17a68a;
