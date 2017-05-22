@@ -137,7 +137,11 @@ select {
 	display:inline-block;
 	font-size:16px;
 	cursor:pointer;
+	transition-duration:1s;
 
+}
+.button:hover {
+	background-color:red;
 }
 footer{
 	display:inline;
@@ -166,6 +170,10 @@ ul li a img{
 
 }
 
+.chan:visited {
+	color :red;
+
+}
 
 
 
