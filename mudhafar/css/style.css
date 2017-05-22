@@ -96,7 +96,7 @@
 	height:100px;
 	background-color: white;
 	position:absolute;
-	transition-duration: 2s;
+	transition-duration: 1s;
 }
 #north {
 	left:200px;
