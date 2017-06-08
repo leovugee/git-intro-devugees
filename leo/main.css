@@ -69,7 +69,7 @@
 }
 
 #spinner {
-  animation: rotate 1s infinite;
+  animation: rotate 1s infinite linear;
   border: 10px solid pink;
   border-radius: 100%;
   border-left-color: red;
@@ -77,32 +77,157 @@
   width: 50px;
 }
 
-@keyframes square-to-circle {
-  0%  {
-    border-radius:0 0 0 0;
-    /transform:rotate(0deg);
+@keyframes rotate-box {
+  0% {
+    transform: rotate(0deg);
   }
-  25%  {
-    border-radius:50% 0 0 0;
-    /transform:rotate(90deg);
+  25% {
+    transform: rotate(0deg);
   }
-  50%  {
-    border-radius:50% 50% 0 0;
-    /transform:rotate(180deg);
+  50% {
+    transform: rotate(180deg);
   }
-  75%  {
-    border-radius:50% 50% 50% 0;
-    /transform:rotate(270deg);
+  75% {
+    transform: rotate(180deg);
   }
   100% {
-    border-radius:50%;
-    /transform:rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
-#square {
-  animation: square-to-circle 3s infinite alternate;
-  background-color: green;
-  height: 100px;
-  width: 100px;
+@keyframes fill-content {
+  0% {
+    height: 0;
+  }
+  25% {
+    height: 200px;
+  }
+  50% {
+    height: 200px;
+  }
+  75% {
+    height: 0;
+  }
+  100% {
+    heigth: 0;
+  }
+}
+
+#box {
+  animation: rotate-box 4s infinite;
+  border: 10px solid black;
+  height: 200px;
+  position: relative;
+  width: 200px;
+}
+
+#content {
+  animation: fill-content 4s infinite;
+  background-color: black;
+  position: absolute;
+  width: 200px;
+}
+
+#clock {
+  border: 4px solid black;
+  border-radius: 100%;
+  height: 200px;
+  position: relative;
+  width: 200px;
+}
+
+.arm {
+  animation-name: rotate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  border: 4px solid black;
+  border-radius: 2px;
+  height: 90px;
+  left: calc(50% - 4px);
+  position: absolute;
+  top: 50%;
+  transform-origin: 50% 0;
+  width: 0;
+}
+
+#hours {
+  animation-duration: 12s;
+  height: 60px;
+}
+
+#minutes {
+  animation-duration: 1s;
+}
+
+@keyframes pacman-down {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes pacman-up {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes pacman-ball {
+  0% {
+    transform: translate(380px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.pacman {
+  background-color: black;
+  position: relative;
+  height: 240px;
+  width: 400px;
+}
+
+.pacman-half {
+  width: 0;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: 100px solid yellow;
+  border-radius: 100px;
+  border-right-color: transparent;
+  z-index:1;
+}
+
+.pacman-half--up {
+  animation: pacman-up 1s infinite;
+}
+
+.pacman-half--down {
+  animation: pacman-down 1s infinite;
+}
+
+.pacman-ball {
+  animation: pacman-ball 2s infinite linear;
+  width: 0;
+  position: absolute;
+  top: 110px;
+  left: 20px;
+  border: 10px solid white;
+  border-radius: 10px;
+}
+
+.pacman-ball--2 {
+  animation-delay: 1s;
 }
