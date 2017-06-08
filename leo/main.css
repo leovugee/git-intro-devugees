@@ -194,19 +194,19 @@
 
 .pacman {
   background-color: black;
-  position: relative;
   height: 240px;
+  position: relative;
   width: 400px;
 }
 
 .pacman-half {
-  width: 0;
-  position: absolute;
-  top: 20px;
-  left: 20px;
   border: 100px solid yellow;
   border-radius: 100px;
   border-right-color: transparent;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 0;
   z-index:1;
 }
 
@@ -220,12 +220,12 @@
 
 .pacman-ball {
   animation: pacman-ball 2s infinite linear;
-  width: 0;
-  position: absolute;
-  top: 110px;
-  left: 20px;
   border: 10px solid white;
   border-radius: 10px;
+  left: 20px;
+  position: absolute;
+  top: 110px;
+  width: 0;
 }
 
 .pacman-ball--2 {
